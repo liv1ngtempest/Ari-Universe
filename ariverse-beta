@@ -1,4 +1,4 @@
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/livingtempest/LT-Project/main/Ari-Universe-Beta.lua"))()
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/livingtempest/LT-Project/main/Rayfield/source'))()
 
@@ -160,7 +160,7 @@ local Paragraph = CreditTab:CreateParagraph({Title = "Pre-Release Testers", Cont
 local Button = SettingTab:CreateButton({
 	Name = "Reload GUI",
 	Callback = function()
-		Rayfield:Destroy()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
     end,
  })
 
