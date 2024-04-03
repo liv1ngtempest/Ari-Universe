@@ -117,7 +117,7 @@ local Button = MainTab:CreateButton({
 	Callback = function()
 		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
     end,
- })+
+ })
 local Button = MainTab:CreateButton({
 	Name = " Depth Hub",
 	Callback = function()
