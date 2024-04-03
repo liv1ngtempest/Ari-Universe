@@ -1,6 +1,6 @@
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
 
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/livingtempest/LT-Project/main/Rayfield/source'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/Rayfield/source'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Ari Universe Beta 💫",
