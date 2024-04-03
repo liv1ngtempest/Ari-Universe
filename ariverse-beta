@@ -91,24 +91,25 @@ local Button = MainTab:CreateButton({
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
     end,
  })
- local Button = MainTab:CreateButton({
+local Button = MainTab:CreateButton({
+	Name = " Vector Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+    end,
+ })
+local Button = MainTab:CreateButton({
 	Name = " Domadic Hub",
 	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))())
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
     end,
  })
- local Button = MainTab:CreateButton({
-	Name = " Domadic Hub",
+local Button = MainTab:CreateButton({
+	Name = " Min XT V2",
 	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua"))()
     end,
  })
- local Button = MainTab:CreateButton({
-	Name = " MinXT V2",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
-    end,
- })
+
 
 local Label = MainTab:CreateLabel("Blade Ball")
 local Button = MainTab:CreateButton({
@@ -132,6 +133,14 @@ local Button = MainTab:CreateButton({
 
 -- Universal
 
+local Label = MainTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
+local Button = UniTab:CreateButton({
+	Name = " Shizukii Hub V2",
+	Callback = function()
+		loadstring(game:HttpGet(""))()
+    end,
+ })
+
 -- Credit
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creator/Graphic Designer/Scripter", Content = "LivingTempest"})
@@ -154,6 +163,7 @@ local Button = SettingTab:CreateButton({
 		Rayfield:Destroy()
     end,
  })
+
  local Button = SettingTab:CreateButton({
 	Name = "Destroy GUI",
 	Callback = function()
