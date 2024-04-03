@@ -310,6 +310,7 @@ local Button = SupportTab:CreateButton({
 
 
 -- Changelogs
+local Paragraph = ChangeTab:CreateParagraph({Title = "Release v1.6", Content = "Major script update"})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Release v1.5", Content = "UI Color Adjustments"})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Release v1.4", Content = "Tweaks"})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Release v1.3", Content = "Added 2 new Blox Fruit scripts"})
