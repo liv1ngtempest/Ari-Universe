@@ -132,7 +132,13 @@ local Button = MainTab:CreateButton({
 
 -- Universal
 
-local Paragraph = UniTab:CreateParagraph({Title = "None ", Content = "this feature is still underwork so please be patient "})
+local Label = MainTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
+local Button = MainTab:CreateButton({
+	Name = " Shizukii Hub V2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/lol/main/HubV2.lua"))()
+    end,
+ })
 
 -- Credit
 
