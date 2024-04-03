@@ -100,13 +100,13 @@ local Button = MainTab:CreateButton({
  local Button = MainTab:CreateButton({
 	Name = " Domadic Hub",
 	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))())
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
     end,
  })
  local Button = MainTab:CreateButton({
 	Name = " MinXT V2",
 	Callback = function()
-		loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
     end,
  })
 
@@ -132,8 +132,8 @@ local Button = MainTab:CreateButton({
 
 -- Universal
 
-local Label = MainTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
-local Button = MainTab:CreateButton({
+local Label = UniTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
+local Button = UniTab:CreateButton({
 	Name = " Shizukii Hub V2",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/lol/main/HubV2.lua"))()
@@ -155,6 +155,13 @@ local Paragraph = CreditTab:CreateParagraph({Title = "Pre-Release Testers", Cont
 
 -- Settings
 
+
+local Button = SettingTab:CreateButton({
+	Name = "Reload GUI",
+	Callback = function()
+		Rayfield:Destroy()
+    end,
+ })
  local Button = SettingTab:CreateButton({
 	Name = "Destroy GUI",
 	Callback = function()
