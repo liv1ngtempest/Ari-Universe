@@ -92,6 +92,18 @@ local Button = MainTab:CreateButton({
     end,
  })
  local Button = MainTab:CreateButton({
+	Name = " Domadic Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))())
+    end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = " Domadic Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))())
+    end,
+ })
+ local Button = MainTab:CreateButton({
 	Name = " MinXT V2",
 	Callback = function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
