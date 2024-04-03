@@ -119,6 +119,16 @@ local Button = MainTab:CreateButton({
     end,
  })
 local Button = MainTab:CreateButton({
+	Name = " Huge Games",
+	Callback = function()
+		getgenv().AuthKey = "HUGE_TnzNK4s1iFjB"
+		getgenv().LoadSettings = {
+   		 Example_Setting = Example_Value
+}
+loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+    end,
+ })
+local Button = MainTab:CreateButton({
 	Name = " Depth Hub",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Blade-ball/main/Blade-ball-free"))()
@@ -132,14 +142,18 @@ local Button = MainTab:CreateButton({
  })
 
 local Label = MainTab:CreateLabel("Pet Simulator 99")
-loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
-
+local Button = MainTab:CreateButton({
+	Name = " Zap Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+    end,
+ })
 -- Universal
 local Label = UniTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
 local Button = UniTab:CreateButton({
-	Name = " Shizukii Hub",
+	Name = " Zap Hub",
 	Callback = function()
-		loadstring(game:HttpGet(""))()
+		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
     end,
  })
 
