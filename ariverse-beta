@@ -104,6 +104,12 @@ local Button = MainTab:CreateButton({
     end,
  })
 local Button = MainTab:CreateButton({
+	Name = " Mtriet Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    end,
+ })
+local Button = MainTab:CreateButton({
 	Name = " Min XT V2",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua"))()
