@@ -132,8 +132,12 @@ local Button = MainTab:CreateButton({
  })
 
 local Label = MainTab:CreateLabel("Pet Simulator 99")
-loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
-
+local Button = MainTab:CreateButton({
+	Name = " Zap Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+    end,
+ })
 -- Universal
 local Label = UniTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
 local Button = UniTab:CreateButton({
