@@ -154,10 +154,6 @@ local Button = UniTab:CreateButton({
     end,
  })
 
-loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
-    end,
- })
-
 -- Credit
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creator/Graphic Designer/Scripter", Content = "LivingTempest"})
