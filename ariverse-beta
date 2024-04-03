@@ -143,8 +143,12 @@ local Button = MainTab:CreateButton({
 	Callback = function()
 		getgenv().AuthKey = "HUGE_TnzNK4s1iFjB"
 		getgenv().LoadSettings = {
-   		 Example_Setting = Example_Value
-})
+   		Example_Setting = Example_Value
+		}
+		loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+    end,
+ })
+
 -- Universal
 local Label = UniTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
 local Button = UniTab:CreateButton({
