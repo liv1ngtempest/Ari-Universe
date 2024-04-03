@@ -2,4 +2,4 @@
 Get Key on the discord: https://discord.gg/bHy6eRMNeV
 
 ## Inject using this script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()```
