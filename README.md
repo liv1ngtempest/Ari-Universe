@@ -2,4 +2,4 @@
 Get Key on the discord: https://discord.gg/bHy6eRMNeV
 
 ## Execute using this script
-`loadstring(game:HttpGet(''))()
+`loadstring(game:HttpGet(''))()`
