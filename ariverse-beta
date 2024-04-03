@@ -132,12 +132,8 @@ local Button = MainTab:CreateButton({
  })
 
 local Label = MainTab:CreateLabel("Pet Simulator 99")
-local Button = MainTab:CreateButton({
-	Name = " Zap Hub",
-	Callback = function()
-		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
-    end,
- })
+loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+
 -- Universal
 local Label = UniTab:CreateLabel("Any script with a checkmark is verified by @livingtempest7 and is working.")
 local Button = UniTab:CreateButton({
@@ -164,14 +160,14 @@ local Paragraph = CreditTab:CreateParagraph({Title = "Pre-Release Testers", Cont
 
 local Label = SettingTab:CreateLabel("UI Setting")
 local Button = SettingTab:CreateButton({
-	Name = "Reload GUI",
+	Name = "Reload UI",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
     end,
  })
 
  local Button = SettingTab:CreateButton({
-	Name = "Destroy GUI",
+	Name = "Destroy UI",
 	Callback = function()
 		Rayfield:Destroy()
     end,
