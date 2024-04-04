@@ -193,7 +193,7 @@ local Paragraph = CreditTab:CreateParagraph({Title = "Pre-Release Testers", Cont
 
 local Label = SettingTab:CreateLabel("UI Setting")
  local Button = SettingTab:CreateButton({
-	Name = "ReloadUI",
+	Name = "Reload UI",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
     end,
@@ -204,27 +204,6 @@ local Label = SettingTab:CreateLabel("UI Setting")
 		Rayfield:Destroy()
     end,
  })
-
-local Button = SupportTab:CreateButton({
-	Name = "Copy scripts loadstring",
-	Callback = function()
- Rayfield:Notify({
-   Title = "Notify",
-   Content = "The link has been copied to you clipboard!",
-   Duration = 6.5,
-   Image = 4483362458,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "Okiee!",
-         Callback = function()
-         print("The user tapped Okay!")
-      end
-   },
-},
-})
-		setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()")
-    end,
- }
 
 local Label = SettingTab:CreateLabel("Modifiers")
 local Slider = SettingTab:CreateSlider({
