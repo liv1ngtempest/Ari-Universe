@@ -193,7 +193,7 @@ local Paragraph = CreditTab:CreateParagraph({Title = "Pre-Release Testers", Cont
 
 local Label = SettingTab:CreateLabel("UI Setting")
  local Button = SettingTab:CreateButton({
-	Name = "Destroy UI",
+	Name = "ReloadUI",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/liv1ngtempest/Ari-Universe/main/ariverse-beta"))()
     end,
